@@ -1,0 +1,75 @@
+body {
+    background-image: url(images/bg-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.logo {
+    width: 170px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.ilustracao {
+    width: 340px;
+    padding-left: 4%;
+    padding-top: 10%;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 10%;
+    font-family: "Poppins";
+    font-weight: 400, 600;
+    font-size: 25px;
+    color: white;
+}
+
+.texto {
+    font-family: "Open Sans";
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.botao  {
+    margin-left: 26%;
+    margin-top: 3%;
+    border-radius: 25px;
+    padding: 3% 17% 3% 17%;
+    border: 0;
+    color: hsl(257, 40%, 49%);
+    font-family: Poppins;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.face {
+    width: 35px;
+    padding-right: 5%;
+}
+
+.tw {
+    width: 35px;
+    padding-right: 5%;
+}
+
+.insta {
+    width: 35px;
+}
+
+nav {
+    margin-top: 30%;
+    margin-left: 31%;
+    margin-bottom: 10%;
+}
+
